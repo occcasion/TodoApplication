@@ -10,4 +10,9 @@ public class HomeController {
     public String helloWorld() {
         return "To-do Application !";
     }
+
+    @GetMapping("/dev")
+    public String helloDev() {
+        return "To-do Application dev !";
+    }
 }
